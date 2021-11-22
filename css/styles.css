@@ -480,13 +480,19 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+.project-link{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    font-style: inherit;
+}
 .project-item {
     margin-right: 30px;
     margin-bottom: 30px;
     width: 370px;
 }
-.project-item:hover,
-.project-item:focus {
+.project-link:hover,
+.project-link:focus {
     cursor: pointer;
     box-shadow: 1px 4px 6px 0px #00000029, 
     0px 4px 4px 0px #0000000F,
@@ -512,6 +518,11 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+
+    font-family: Raleway, cursive ;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
 }
 .portfolio-card {
     padding-top: 20px;
@@ -546,6 +557,10 @@ img {
     line-height: 1.19;
    
 }
+.footer-left-container .footer-icon{
+    display: flex;
+    justify-content: center;
+}
 .address-list{
     color: var(--primary-white-color);
 
@@ -572,17 +587,10 @@ img {
 .address-item:last-child {
     margin-bottom: 0px;
 }
-/* .footer-icon {
-    
-    align-items: center;
-    width: 206px;
-    height: 80px;
-
-    margin-left: 70px;
-} */
-
 
 .footer-container{
+    margin: 0px;
+    width: 231px;
     display: flex;
 }
 .footer-icon-tittle{
@@ -596,6 +604,11 @@ img {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+}
+
+.footer-icon{
+    display: flex;
+
 }
 .footer-social-list{
     display: flex;
