@@ -557,10 +557,7 @@ img {
     line-height: 1.19;
    
 }
-.footer-left-container .footer-icon{
-    display: flex;
-    justify-content: center;
-}
+
 .address-list{
     color: var(--primary-white-color);
 
@@ -587,11 +584,12 @@ img {
 .address-item:last-child {
     margin-bottom: 0px;
 }
-
-.footer-container{
-    margin: 0px;
-    width: 231px;
+.footer-thumb{
+    margin-right: 60px;
+}
+.footer-left-container{
     display: flex;
+    align-items: baseline;
 }
 .footer-icon-tittle{
     margin-bottom: 20px;
@@ -604,11 +602,6 @@ img {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-}
-
-.footer-icon{
-    display: flex;
-
 }
 .footer-social-list{
     display: flex;
